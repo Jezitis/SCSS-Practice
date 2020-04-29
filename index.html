@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCSS Practice</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="/">
+                <img src="img/logo.png" alt="logo">
+            </a>
+            <nav class="nav header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">TECHNOLOGY</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">IDEAS</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">LEADERSHIP</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">VIDEO</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">NEWS</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">FINANCE</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">ENTERTAINMENT</a></li>
+                </ul>
+            </nav>
+            <button class="header__burger burger" aria-label="Open menu">
+                <span class="burger__line" aria-hiden="true"></span>
+                <span class="burger__line" aria-hiden="true"></span>
+                <span class="burger__line" aria-hiden="true"></span>
+            </button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="articles">
+            <h1 class="visually-hidden">Deck Articles</h1>
+            <div class="container grid articles__container">
+                <article class="articles__item article article-big">
+                    <img src="img/big-article-img.png" alt="article__image" class="article__image">
+                    <div class="article__text article-big__text">
+                        <a href="#" class="category">Finance</a>
+                        <h2 class="article__title article-big__title">This tie brand is bucking the retail 
+                            apocalypse with a massive store  expansion
+                        </h2>
+                        <p class="article__descr article-big__descr">There is a lot of exciting stuff going on in the stars above us
+                             that makes astronomy so much fun. The truth is the universe 
+                             is a constantly changing, moving.
+                        </p>
+                        <div class="article-props article-big__props">
+                            <span class="article-props__item article-props__item_shares">275</span>
+                            <span class="article-props__item article-props__item_views">275</span>
+                            <span class="article-props__item article-props__item_comments">12</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="articles__item article">
+                    <img src="img/article1-img.png" alt="article__image" class="article__image">
+                    <div class="article__text">
+                        <a href="#" class="category article__category">Finance</a>
+                        <h2 class="article__title">Unmatched Toner Cartridge Quality: 20% Less Than OEM Price</h2>
+                        <div class="article-props">
+                            <span class="article-props__item article-props__item_shares">275</span>
+                            <span class="article-props__item article-props__item_views">275</span>
+                            <span class="article-props__item article-props__item_comments">12</span>
+                        </div>
+                    </div>
+                </article>
+                <aside class="articles__item article banner article-tall">
+                    <h2 class="banner__title">This tie brand is bucking the retail apocalypse with a massive store expansion</h2>
+                    <p class="banner__descr">
+                        The universe is constantly changing, moving. Some would say it’s a “living” thing because you never know what you are going to see on any given night.
+                    </p>
+                    <a href="" class="banner__link">Read More</a>
+                </aside>
+                <div class="articles__item article features article-tall">
+                    <h2 class="features__title">Featured stories</h2>
+                    <ul class="features__list">
+                        <li class="features__item"><a href="#" class="features__link">
+                            <h3 class="features__item-title">Compare Prices: Find The Best Computer Accessory</h3>
+                        </a></li>
+                        <li class="features__item"><a href="#" class="features__link">
+                            <h3 class="features__item-title">Why You Should Use External IT Support</h3>
+                        </a></li>
+                        <li class="features__item"><a href="#" class="features__link">
+                            <h3 class="features__item-title">Why You Should Use In-House IT Support</h3>
+                        </a></li>
+                        <li class="features__item"><a href="#" class="features__link">
+                            <h3 class="features__item-title">Choosing The Best Audio Player Software</h3>
+                        </a></li>
+                        <li class="features__item"><a href="#" class="features__link">
+                            <h3 class="features__item-title">Addiction When Gambling Becomes A Problem</h3>
+                        </a></li>
+                    </ul>
+                </div>
+                <article class="articles__item article article-wide">
+                    <img src="img/article-wide-img.png" alt="article__image" class="article__image">
+                    <div class="article__text">
+                        <a href="#" class="category article__category">Entertainment</a>
+                        <h2 class="article__title article-wide__title">Here’s The Difference Between Used, Refurbished, Remarketed, And Rebuilt Electronic Equipment</h2>
+                        <div class="article-props">
+                            <span class="article-props__item article-props__item_shares">275</span>
+                            <span class="article-props__item article-props__item_views">275</span>
+                            <span class="article-props__item article-props__item_comments">12</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="articles__item article">
+                    <img src="img/article2-img.png" alt="article__image" class="article__image">
+                    <div class="article__text">
+                        <a href="#" class="category article__category">Finance</a>
+                        <h2 class="article__title">Optimize Your PC’s Performance With These 3 Programs</h2>
+                        <div class="article-props">
+                            <span class="article-props__item article-props__item_shares">275</span>
+                            <span class="article-props__item article-props__item_views">275</span>
+                            <span class="article-props__item article-props__item_comments">12</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="articles__item article">
+                    <img src="img/article3-img.png" alt="article__image" class="article__image">
+                    <div class="article__text">
+                        <a href="#" class="category article__category">Gaming</a>
+                        <h2 class="article__title">Search Engine Optimization And Advertising</h2>
+                        <div class="article-props">
+                            <span class="article-props__item article-props__item_shares">275</span>
+                            <span class="article-props__item article-props__item_views">275</span>
+                            <span class="article-props__item article-props__item_comments">12</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="articles__item article">
+                    <img src="img/article4-img.png" alt="article__image" class="article__image">
+                    <div class="article__text">
+                        <a href="#" class="category article__category">Technology</a>
+                        <h2 class="article__title">Where To Find Unique Myspace Layouts</h2>
+                        <div class="article-props">
+                            <span class="article-props__item article-props__item_shares">275</span>
+                            <span class="article-props__item article-props__item_views">275</span>
+                            <span class="article-props__item article-props__item_comments">12</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="copyright">
+                <a href="/" class="logo footer__logo"><img src="img/footer-logo.png" alt="logo"></a>
+                <p class="copyright__descr">© 2018 Deck
+                    Component based UI Kit
+                </p>
+            </div>
+            <nav class="footer-nav nav footer__nav">
+                <ul class="nav__list footer-nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link footer-nav__link">TECHNOLOGY</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link footer-nav__link">IDEAS</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link footer-nav__link">LEADERSHIP</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link footer-nav__link">VIDEO</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link footer-nav__link">NEWS</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link footer-nav__link">FINANCE</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link footer-nav__link">ENTERTAINMENT</a></li>
+                </ul>
+            </nav>
+            <div class="feedback footer__feedback">
+                <span class="feedback__text">Follow us:</span>
+                <ul class="feedback__list">
+                    <li class="feedback__item"><a href="#" class="feedback__link feedback__link_inst"></a></li>
+                    <li class="feedback__item"><a href="#" class="feedback__link feedback__link_print"></a></li>
+                    <li class="feedback__item"><a href="#" class="feedback__link feedback__link_twit"></a></li>
+                    <li class="feedback__item"><a href="#" class="feedback__link feedback__link_fb"></a></li>
+                </ul>
+                <form class="feedback-form feedback__form">
+                    <label><input  class="feedback-form__input" type="email" name="email" id="email" placeholder="Your E-mail" required></label>
+                    <button class="feedback-form__submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

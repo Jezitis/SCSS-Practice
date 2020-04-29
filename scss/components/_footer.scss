@@ -1,0 +1,114 @@
+.footer {
+    &__container {
+        background-color: $color-dark;
+        padding: 40px;
+        @include flex;
+        align-items: center;
+    }
+
+    &__nav {
+        margin-left: 90px;
+    }
+
+    &__feedback {
+        margin-left: auto;
+    }
+}
+
+.copyright {
+    &__descr {
+        max-width: 155px;
+        color: rgba($color-white, 0.7);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        margin-top: 20px;
+    }
+}
+
+.footer-nav {
+    &__list {
+        display: inline-block;
+        columns: 4;
+    }
+
+    &__link {
+        max-width: 100px;
+        color: $color-white;
+        margin-bottom: 21px;
+    }
+}
+
+.feedback {
+    &__text {
+        display: inline-block;
+        color: rgba($color-white, 0.7);
+        font-size: 14px;
+        line-height: 22px;
+        margin-right: 20px;
+        margin-left: 75px;
+    }
+
+    &__list {
+        list-style-type: none;
+        display: inline-block;
+    }
+
+    &__item {
+        display: inline-block;
+        margin-right: 15px;
+        
+    }
+
+    &__link {
+        display: block;
+        background-image: url('/img/socials.png');
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 16px;
+
+        &_print {
+            background-position-x: -39px;
+        }
+
+        &_twit {
+            background-position-x: -72px;
+        }
+
+        &_fb {
+            background-position-x: -105px;
+        }
+    }
+
+    .feedback__form {
+        margin-top: 20px;
+    }
+
+    .feedback-form {
+        &__input {
+            min-width: 185px;
+            color: rgba($color-dark, 0.4);
+            font-size: 14px;
+            line-height: 22px;
+            padding: 12px;
+            padding-left: 15px;
+            border: none;
+        }
+
+        &__submit {
+            @include btn-reset;
+            display: inline-block;
+            background-color: $color-accent;
+            color: $color-white;
+            font-family: 'Oswald';
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.9px;
+            line-height: 22px;
+            padding: 12px 30px;
+            margin-left: -4px;
+        }
+    }
+
+}
